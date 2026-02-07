@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../Navbar/navbar'
+// import Navbar from '../Navbar/navbar'
 import Hero from '../Hero/Hero'
 import Category from '../Category/Category'
 import Values from '../Values/Values'
@@ -20,7 +20,7 @@ const Home = () => {
         <Products />
         <Discount />
         <Process />
-        {/* <Testimonials /> */}
+        <Testimonials />
         {/* <Footer /> */}
     </div>
   )

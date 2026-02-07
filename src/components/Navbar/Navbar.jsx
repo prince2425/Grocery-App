@@ -4,7 +4,7 @@ import { HiShoppingBag } from "react-icons/hi2";
 import { IoSearchSharp } from "react-icons/io5";
 import { TbMenu2 } from "react-icons/tb";
 import { TbMenu3 } from "react-icons/tb";
-
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -31,9 +31,9 @@ const Navbar = () => {
     <header className={`bg-white fixed top-0 right-0 left-0 z-50 ${isScrolled?'drop-shadow-[0_4px_25px_rgba(0,0,0,.5)]':''}`}>
       <nav className="max-w-[95vw] mx-auto md:px-10 px-2 md:h-[14vh] h-[12vh] flex justify-between items-center ">
         {/* logo */}
-         <a href="#" className="md:text-3xl text-2xl font-bold"> {/* text md se bada hoga tab 3xl nahi to 2xl */}
+         <Link to="/" className="md:text-3xl text-2xl font-bold"> {/* text md se bada hoga tab 3xl nahi to 2xl */}
           Gr<span className="text-orange-500 uppercase">o</span>cify
-        </a>
+        </Link>
 
         {/* Desktop menu */}
 
