@@ -1,5 +1,5 @@
 import React from "react";
-import Grocery from "../../assets/Grocery.png";
+import Grocery from "../../src/assets/grocery.png";
 import Button from "../Button/Button";
 
 const Hero = () => {
@@ -16,7 +16,7 @@ const Hero = () => {
             Tasty Oranic <span className="text-orange-500">Fruits</span> &{" "}
             <span className="text-orange-500">Veggies</span> In Your City
           </h1>
-          <p className="text-zinc-600 md:text-lg text-md max-w-[530px] mt-5 mb-10">
+          <p className="text-zinc-600 md:text-lg text-md max-w-\[530px] mt-5 mb-10">
             Bred for a hight content of beneficial substance. Our products are all fresh and healdhy.
           </p>
           <Button content='shop Now'/>
