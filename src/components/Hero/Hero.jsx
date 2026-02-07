@@ -1,5 +1,5 @@
 import React from "react";
-import Grocery from "../../src/assets/grocery.png";
+import Grocery from "../../assets/grocery.png";
 import Button from "../Button/Button";
 
 const Hero = () => {
